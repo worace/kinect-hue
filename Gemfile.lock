@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    curb (0.8.8)
+    hue (0.1.5)
+      curb
+      json
+      log_switch (= 0.4.0)
+      thor
+    json (1.8.3)
+    log_switch (0.4.0)
+    redis (3.2.1)
+    thor (0.19.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hue
+  redis
